@@ -125,7 +125,9 @@ use frontend\models\TblTrainingPlans;
         <div class="col-sm-2">
             <?=
                     $form->field($model, 'telephone', ['template' => '<div class=\"\">{input}</div><div class=\"\">{error}</div>'])
-                    ->textInput(['maxlength' => true])
+                    ->widget(\yii\widgets\MaskedInput::className(), [
+                        'mask' => '999-999-9999',
+                    ])
             ?>
 
         </div> 
@@ -133,7 +135,12 @@ use frontend\models\TblTrainingPlans;
         <div class="col-sm-3">
             <?=
                     $form->field($model, 'email', ['template' => '<div class=\"\">{input}</div><div class=\"\">{error}</div>'])
-                    ->textInput()
+                    ->widget(\yii\widgets\MaskedInput::className(), [
+                        'name' => 'input-36',
+                        'clientOptions' => [
+                            'alias' => 'email'
+                        ],
+                    ])
             ?>
 
         </div>   
