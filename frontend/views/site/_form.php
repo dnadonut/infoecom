@@ -126,7 +126,7 @@ use frontend\models\TblTrainingPlans;
             <?=
                     $form->field($model, 'telephone', ['template' => '<div class=\"\">{input}</div><div class=\"\">{error}</div>'])
                     ->widget(\yii\widgets\MaskedInput::className(), [
-                        'mask' => '999-999-9999',
+    'mask' => ['99-999-9999', '999-999-9999']
                     ])
             ?>
 
