@@ -42,7 +42,7 @@ class TblCandidates extends \yii\db\ActiveRecord
             [['prefix_name', 'food_type', 'candidates_type'], 'string', 'max' => 45],
             [['company'], 'string', 'max' => 100],
             [['fname', 'lname', 'email'], 'string', 'max' => 128],
-            [['telephone'], 'string', 'max' => 10],
+            [['telephone'], 'string'],
             [['training_id'], 'exist', 'skipOnError' => true, 'targetClass' => TblTrainingCourse::className(), 'targetAttribute' => ['training_id' => 'training_id']],
         ];
     }
