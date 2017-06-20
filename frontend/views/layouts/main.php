@@ -41,7 +41,7 @@ $this->title = 'WU-ECOMMERCE';
 
                             <ul>
                                 <li>
-                                    <a href="https://www.facebook.com">
+                                    <a href="https://www.facebook.com/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%B9%E0%B8%A3%E0%B8%93%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A8%E0%B8%A3%E0%B8%A9%E0%B8%90%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5-1728699500764010/">
                                         <i class="fa fa-facebook-square" style="font-size:24px;color:#4267b2"></i> อบรมฟรี 5 หลักสูตร (ภาคใต้)
                                     </a>
                                 </li>

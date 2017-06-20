@@ -75,7 +75,7 @@ use frontend\models\TblTrainingPlans;
     </div>
 
 
-    <div class="form-group">
+    <div class="form-group" style="margin-bottom: 40px">
         <label class="control-label col-sm-3">คำนำหน้าชื่อ<font color="red"> *</font></label>
         <div class="col-sm-6">
 
@@ -111,7 +111,7 @@ use frontend\models\TblTrainingPlans;
             ?>
 
         </div> 
-        <label class="control-label col-sm-1">นามสกุล<font color="red"> *</font></label>
+        <label class="control-label col-sm-1">นามสกุล<font color="red">*</font></label>
         <div class="col-sm-3">
             <?=
                     $form->field($model, 'lname', ['template' => '<div class=\"\">{input}</div><div class=\"\">{error}</div>'])
@@ -126,7 +126,7 @@ use frontend\models\TblTrainingPlans;
             <?=
                     $form->field($model, 'telephone', ['template' => '<div class=\"\">{input}</div><div class=\"\">{error}</div>'])
                     ->widget(\yii\widgets\MaskedInput::className(), [
-    'mask' => ['99-999-9999', '999-999-9999']
+                        'mask' => ['99-999-9999', '999-999-9999']
                     ])
             ?>
 
