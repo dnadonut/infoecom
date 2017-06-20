@@ -21,7 +21,7 @@ use backend\models\TblLocations;
 
     <?php $form = ActiveForm::begin(['layout' => 'horizontal']); ?>
 
-    <div class="form-group">
+    <div class="form-group" style="margin-bottom: 0px">
         <label class="control-label col-sm-3">หลักสูตร<font color="red">*</font></label>
         <div class="col-sm-3">
             <?php
@@ -38,7 +38,7 @@ use backend\models\TblLocations;
     </div>
     
     
-    <div class="form-group">
+    <div class="form-group" style="margin-bottom: 0px">
         <label class="control-label col-sm-3">สถานที่จัด<font color="red">*</font></label>
         <div class="col-sm-3">
             <?php
@@ -57,7 +57,7 @@ use backend\models\TblLocations;
 
    
 
-    <div class="form-group">
+    <div class="form-group" style="margin-bottom: 25px">
         <label class="control-label col-sm-3">วันที่จัดอบรม<font color="red">*</font></label>
         <div class="col-sm-2" style="padding-left: 0px; padding-right: 0px;">
             <?=
@@ -81,7 +81,7 @@ use backend\models\TblLocations;
         </div>
     </div>
     
-    <div class="form-group">
+    <div class="form-group" style="margin-bottom: 0px">
         <label class="control-label col-sm-3">จำนวนที่รับ<font color="red">*</font></label>
         <div class="col-sm-1">
             <?=
