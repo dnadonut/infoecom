@@ -35,7 +35,16 @@ class SignupForm extends Model
             ['password', 'string', 'min' => 6],
         ];
     }
-
+    
+    
+    public function attributeLabels()
+    {
+        return [
+            'username' => 'ชื่อผู้ใช้',
+            'email' => 'อีเมล์',
+            'password' => 'รหัสผ่าน',
+        ];
+    }
     /**
      * Signs user up.
      *
